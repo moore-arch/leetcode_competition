@@ -3,4 +3,5 @@ project(leetcode_competition)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(leetcode_competition main.cpp)
+add_executable(leetcode_competition main.cpp common.h)
+add_executable(nthUglyNumber nthUglyNumber.cpp)
