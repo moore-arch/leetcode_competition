@@ -15,9 +15,9 @@ using namespace std;
  * @return 所有可能的字符
  */
 
-vector<vector<char>> table { {'_'}, {'!'},  {'a', 'b', 'c'}, {'d', 'e', 'f'},
-                             {'g', 'h', 'i'}, {'j', 'k', 'l'}, {'m', 'n', 'o'},
-                             {'p', 'q', 'r', 's'}, {'t', 'u', 'v'}, {'w', 'x', 'y', 'z'}};
+vector<string> table {"", "", "abc", "def",
+                      "ghi","jkl","mno",
+                      "pqrs","tuv","wxyz"};
 
 void dfs(string &digits, int pos, string str, vector<string> &res) {
     if (pos == digits.length()) {
@@ -42,7 +42,7 @@ vector<string> letterCombinations(string digits) {
 
 int main()
 {
-
+    letterCombinations("");
     return 0;
 }
 
