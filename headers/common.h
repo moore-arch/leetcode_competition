@@ -58,7 +58,6 @@
 #if __cplusplus >= 201103L
 #include <ccomplex>
 #include <cfenv>
-#include <cinttypes>
 #include <cstdalign>
 #include <cstdbool>
 #include <cstdint>
