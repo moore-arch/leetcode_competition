@@ -3,6 +3,11 @@ project(leetcode_competition)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(leetcode_competition main.cpp common.h largestNumber.cpp)
-add_executable(nthUglyNumber nthUglyNumber.cpp)
-add_executable(largestNumber largestNumber.cpp)
+INCLUDE_DIRECTORIES(".")
+
+add_executable(leetcode_competition main.cpp headers/common.h daily/largestNumber.cpp)
+add_executable(nthUglyNumber daily/nthUglyNumber.cpp)
+add_executable(largestNumber daily/largestNumber.cpp)
+
+# backtrace
+add_executable(letterCombinations backtrace/letterCombinations.cpp)
