@@ -1,4 +1,9 @@
 # leetcode_competition
 leetcode competition
 
-记录leetcode周赛和双周赛题目
+headers: 公共头文件
+
+daily: 每日一题
+
+### 分类
+backtrace: 回溯算法
