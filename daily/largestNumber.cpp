@@ -2,9 +2,8 @@
 // Created by shimeng on 2021/4/12.
 //
 
-#include <ranges>
 
-#include "headers/common.h"
+#include "common.h"
 using namespace std;
 
 /**
