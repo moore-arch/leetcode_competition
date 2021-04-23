@@ -14,18 +14,17 @@ bool isValidSudoku(vector<vector<char>>& board) {
 	vector<vector<bool>> row(9, vector<bool>(9, false));
 	vector<vector<bool>> box(9, vector<bool>(9, false));
 
-	const int ROW_SIZE = board.size();
+	auto ROW_SIZE = board.size();
 	if (ROW_SIZE <= 0) {
 		return false;
 	}
-	const int COL_SIZE = board[0].size();
+	auto COL_SIZE = board[0].size();
 	for (int i = 0; i < ROW_SIZE; ++i) {
 		for (int j = 0; j < COL_SIZE; ++j) {
 			if (board[i][j] == '.') {
 				continue;
 			}
 			int value = board[i][j] - '1';
-			// cout << value << endl;
 			int index = (i * 3 ) / 3 + j / 3;
 
 			// if (row[i][value] == false && col[j][value] == false && box[index][value] == false) {
@@ -37,9 +36,6 @@ bool isValidSudoku(vector<vector<char>>& board) {
 			// }
 			
 			if (col[j][value] || row[i][value] || box[index][value]) {
-				// cout << i << "  " << j << "->" << board[i][j] << endl;
-				// cout << row[i][value] << " " << col[j][value] << " " << box[index][value] << endl;
-				
 				return false;
 
 			}
