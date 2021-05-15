@@ -10,7 +10,7 @@ public:
     int val;
     ListNode *next;
 
-    ListNode(int value): val(value), next(nullptr) {}
+    explicit ListNode(int value): val(value), next(nullptr) {}
 };
 
 #endif //LEETCODE_COMPETITION_LISTNODE_H
