@@ -6,6 +6,7 @@
 #define LEETCODE_COMPETITION_LISTNODE_H
 
 class ListNode {
+public:
     int val;
     ListNode *left;
     ListNode *right;
