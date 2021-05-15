@@ -3,7 +3,6 @@
 //
 #include "common.h"
 
-
 using namespace std;
 
 vector<string> table {"", "", "abc", "def",
