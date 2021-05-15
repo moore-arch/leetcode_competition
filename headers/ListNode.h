@@ -8,10 +8,9 @@
 class ListNode {
 public:
     int val;
-    ListNode *left;
-    ListNode *right;
+    ListNode next;
 
-    ListNode(int value): val(value), left(nullptr), right(nullptr) {}
+    ListNode(int value): val(value), next(nullptr) {}
 };
 
 #endif //LEETCODE_COMPETITION_LISTNODE_H
