@@ -20,6 +20,8 @@ add_single_exe(daily)
 add_single_exe(backtrace)
 add_single_exe(linkedlist)
 
+add_single_exe(two_pointers)
+
 # daily
 #foreach(v ${DAILY})
 #    # file relative path
