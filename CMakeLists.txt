@@ -18,6 +18,7 @@ endfunction()
 
 add_single_exe(daily)
 add_single_exe(backtrace)
+add_single_exe(linkedlist)
 
 # daily
 #foreach(v ${DAILY})
