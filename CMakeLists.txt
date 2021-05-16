@@ -7,7 +7,6 @@ INCLUDE_DIRECTORIES("headers")
 
 function(add_single_exe src_dir)
     file(GLOB_RECURSE FILE_LIST "${CMAKE_CURRENT_SOURCE_DIR}/${src_dir}/*.cpp")
-    message(STATUS ${FILE_LIST})
     foreach(v ${FILE_LIST})
         string(REGEX MATCH "${src_dir}/.*\\.cpp" relative_path ${v})
         string(REGEX REPLACE "${src_dir}/" "" file_name ${relative_path})
@@ -21,6 +20,10 @@ add_single_exe(backtrace)
 add_single_exe(linkedlist)
 
 add_single_exe(two_pointers)
+
+add_executable(
+        main main.cpp
+)
 
 # daily
 #foreach(v ${DAILY})
