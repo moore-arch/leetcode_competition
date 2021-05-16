@@ -13,10 +13,10 @@ public:
     TreeNode *right;
     int val;
 
-//    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-//    explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-//    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-//
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    explicit TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+
 //    // Encodes a tree to a single string.
 //    static string serialize(TreeNode* root) {
 //
