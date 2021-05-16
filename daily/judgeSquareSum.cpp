@@ -1,3 +1,7 @@
+#include "common.h"
+
+using namespace std;
+
 bool judgeSquareSum(int c) {
 	long left = 0;
 	long right = sqrt(c);
@@ -14,4 +18,8 @@ bool judgeSquareSum(int c) {
 		}
 	}
 	return res;
+}
+
+int main() {
+    return 0;
 }
