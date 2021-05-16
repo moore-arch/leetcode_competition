@@ -42,13 +42,10 @@
 #include <cctype>
 #include <cerrno>
 #include <cfloat>
-#include <ciso646>
 #include <climits>
 #include <clocale>
 #include <cmath>
-#include <csetjmp>
 #include <csignal>
-#include <cstdarg>
 #include <cstddef>
 #include <cstdio>
 #include <cstdlib>
@@ -73,9 +70,6 @@
 #include <exception>
 #include <fstream>
 #include <functional>
-#include <iomanip>
-#include <ios>
-#include <iosfwd>
 #include <iostream>
 #include <istream>
 #include <iterator>
