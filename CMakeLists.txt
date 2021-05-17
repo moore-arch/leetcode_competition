@@ -19,7 +19,8 @@ add_single_exe(daily)
 add_single_exe(backtrace)
 add_single_exe(linkedlist)
 
-add_single_exe(two_pointers)
+add_single_exe(twoPointers)
+add_single_exe(bitManipulation)
 
 add_executable(
         main main.cpp
