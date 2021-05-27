@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <sstream>
 #include <cstdlib>
 
 std::string ver_string(int a, int b, int c) {
