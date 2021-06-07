@@ -21,6 +21,7 @@ add_single_exe(linkedlist)
 
 add_single_exe(twoPointers)
 add_single_exe(bitManipulation)
+add_single_exe(dynamicProgramming)
 
 add_executable(main main.cpp)
 add_executable(test test/main.cpp)
