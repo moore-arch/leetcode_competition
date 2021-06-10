@@ -49,7 +49,6 @@ int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
 }
 
 int main() {
-
     return 0;
 }
 
